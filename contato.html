@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Professor Ajax</title>
+</head>
+<body>
+        <header>
+        <img src="imgs/banner.JPG" width="1320" height="250">
+        </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="musicas.html">Músicas para Programação</a></li>
+            <li><a href="aulas.html">Aulas</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <h2>Fale com o Ajax:</h2>
+        <form method="get">
+            <fieldset>
+                <legend><strong>Contato</strong></legend>
+                <strong>Nome:</strong><input type="text" name="nome" required><br>
+                <strong>Data de Nascimento:</strong><input type="date" name="nascimento" required><br>
+                <strong>Email:</strong><input type="email" name="email" required><br>
+                <strong>Genêro:</strong><br>
+                <input type="radio" name="genero" value="1">Feminino<br>
+                <input type="radio" name="genero" value="2">Masculino<br>
+                <input type="radio" name="genero" value="3">Transexual<br>
+                <input type="radio" name="genero" value="4">Não Binário<br>
+                <input type="radio" name="genero" value="5">Outro<br>
+                <input type="radio" name="genero" value="6">Prefiro não responder<br>
+                <strong>Nível de Conhecimento em Programação:</strong><br>
+                <select name="nivel">
+                    <option value=""></option>
+                    <option value="1">Não tenho conhecimento</option>
+                    <option value="2">Básico</option>
+                    <option value="3">Intermediario</option>
+                    <option value="4">Experiente</option>
+                </select><br>
+                <strong>Como ficou sabendo do site:</strong><br>
+                <input type="checkbox" name="estudo" value="convidado">Convidado<br>
+                <input type="checkbox" name="estudo" value="internet">Internet<br>
+                <input type="checkbox" name="estudo" value="amigos">Amigos<br>
+                <input type="checkbox" name="estudo" value="familiares">Familiares<br>
+                <input type="checkbox" name="estudo" value="outros">Outros<br>
+                <strong>Mensagem:</strong><br>
+                <textarea name="msg" rows="25" cols="30" maxlength="400"></textarea><br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <strong>Prof Ajax - 2022</strong>
+    </footer>
+</body>
+</html>
